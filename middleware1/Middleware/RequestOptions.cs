@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
 namespace middleware1.Middleware
@@ -19,6 +20,8 @@ namespace middleware1.Middleware
         /// 每个ip每分钟最大的访问数
         /// </summary>
         public  int MaxNumPerMI { get; set; }
+        public  string RedirectUrl { get; set; }
+        public  DbContext DbContext { get; set; }
     }
  
 }

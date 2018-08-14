@@ -49,6 +49,7 @@
           <e p="RequestOptions.cs" t="Include" />
           <e p="RequestRecordMiddleWare.cs" t="Include" />
           <e p="RequestRecordServiceCollection.cs" t="Include" />
+          <e p="SysEventId.cs" t="Include" />
         </e>
         <e p="middleware1.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">

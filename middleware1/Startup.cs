@@ -36,7 +36,8 @@ namespace middleware1
             {
                 options.UseBlackIP = true;
                 options.MaxNumPerMI = 1000;
-                options.BlackList=new List<string>();
+                options.BlackList=new List<string>(){"localhost"};
+                options.RedirectUrl = "http://www.baidu.com";
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
           
